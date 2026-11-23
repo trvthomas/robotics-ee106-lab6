@@ -1,0 +1,13 @@
+**/build/
+**/install/
+
+**/log/
+*.log
+**/*.log
+*.pid
+
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+*.csv
