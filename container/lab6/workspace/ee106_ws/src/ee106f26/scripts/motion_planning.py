@@ -17,11 +17,13 @@ def get_path_from_A_star(start, goal, obstacles):
     #   note that the path should contain the goal but not the start
     #   e.g., the path from (0, 0) to (2, 2) should be [(1, 0), (1, 1), (2, 1), (2, 2)]
     
+    past_cost = 0
+
     current = start
 
     open = []
 
-    while (open is not empty):
+    while (open):
         current = open[0]
         closed.append(open.pop(0))
         if (current is goal)
